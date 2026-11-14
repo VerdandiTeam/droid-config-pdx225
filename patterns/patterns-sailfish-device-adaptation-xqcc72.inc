@@ -81,11 +81,16 @@ Requires: rfkill
 
 # Enable fingerprint reader
 Requires: sailfish-devicelock-fpd
-Requires: sailfish-fpd-community
-Requires: droid-fake-crypt
-Requires: droid-biometry-fp
+Requires: sailfish-fpd
+Requires: sailfish-fpd-slave-binder
+Requires: sailfish-gk-aidl-bridge
 Obsoletes: jolla-devicelock-daemon-encsfa
 Obsoletes: jolla-devicelock-plugin-encsfa
+
+# Remove community fpd
+Obsoletes: sailfish-fpd-community
+Obsoletes: droid-fake-crypt
+Obsoletes: droid-biometry-fp
 
 # Enable home encryption
 #Requires: sailfish-device-encryption
