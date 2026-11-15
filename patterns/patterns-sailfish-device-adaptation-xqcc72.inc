@@ -93,7 +93,7 @@ Obsoletes: droid-fake-crypt
 Obsoletes: droid-biometry-fp
 
 # Enable home encryption
-#Requires: sailfish-device-encryption
+Requires: sailfish-device-encryption
 
 # For GPS
 Requires: geoclue-provider-hybris
@@ -110,7 +110,7 @@ Requires: nfcd-binder-plugin
 #Requires: nfcd-pn54x-plugin
 
 # Splash screen
-#Requires: yamuisplash
+Requires: yamuisplash
 
 %description -n patterns-sailfish-device-adaptation-xqcc72
 Pattern with packages for xqcc72 HW Adaptation
